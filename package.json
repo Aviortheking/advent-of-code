@@ -1,9 +1,11 @@
 {
-  "devDependencies": {
-    "@types/node": "^16.11.11"
-  },
-  "dependencies": {
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.2"
-  }
+	"name": "advent-of-code",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
